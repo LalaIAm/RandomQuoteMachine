@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #291e32;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #94adbe;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  padding-top: 2rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}

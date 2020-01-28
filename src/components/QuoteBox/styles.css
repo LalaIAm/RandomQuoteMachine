@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.quote-box {
+  background: linear-gradient(
+    to top,
+    rgba(40, 40, 40, 0.5),
+    rgba(11, 99, 121, 0.308)
+  );
+  min-height: 60vh;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-apart;
+}
+
+.btn-container {
+  display: block;
+  padding-bottom: 3rem;
+}
+
+.btn {
+  outline: none;
+  padding: 8px 20px;
+  background: linear-gradient(#ae3c55, #291e32);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px rgba(40, 40, 40, 0.5);
+  transition: all 0.3s;
+  margin-bottom: 1rem;
+  font-family: 'Aureate';
+}
+
+.btn:hover {
+  background: navy;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Aureate';
+  color: #ae3c55;
+  padding: 2rem;
+}
